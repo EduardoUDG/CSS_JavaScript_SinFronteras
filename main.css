@@ -3,6 +3,11 @@ body{
 }
 
 .caja {
-    margin: 15px;
-    background-color: #aaf;
+    margin: 8px;
+    padding: 8px;
+    border-style: solid;
+    border-width: 8px;
+    border-color: #faa;
+    border-left: 6px solid #afa;
+    background: #aaf;
 }
