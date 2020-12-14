@@ -10,4 +10,7 @@ body{
     border-color: #faa;
     border-left: 6px solid #afa;
     background: #aaf;
+    border-radius: 8px;
+    height: 100px;
+    width: 100px;
 }
