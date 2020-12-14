@@ -1,0 +1,21 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(51, 55, 75);              
+}
+
+#parrafo{
+    color: rgb(255, 255, 255);
+    font-family: arial;
+    font-size: 16px;
+    letter-spacing: normal;
+}
+
+.etiqueta{
+    color: antiquewhite;
+    font-family: arial;
+    font-size: 14px;
+}
