@@ -2,31 +2,35 @@ body{
     background-color:#efefef;              
 }
 
-.a1{
-    color: white;
-    text-decoration: none;
-    background-color: cornflowerblue;
-    border: 1px solid green;
+.l1 li{
+    list-style-type: circle;
+}
+
+.l2 li{
+    list-style-type: square;
+}
+
+.l3 li{
+    list-style-type: upper-roman;
+}
+
+.l4 li{
+    list-style-type: lower-alpha;
+}
+
+.l5 {
+    list-style-type: lower-alpha;
+    background-color: #fff;
+    border: 1px solid #ddd;
     border-radius: 4px;
-    padding: 3px 5px;
+    padding-left: 0px;
+    list-style-type: none;
 }
 
-.a2:link{
-    color: pink;
+.l5 li {
+    border-bottom: 1px solid #ddd;
+    padding: 15px;
 }
-
-.a3:visited{
-    color: blueviolet;
-}
-
-.a4:active{
-    color: yellow;
-}
-
-.a5:hover{
-    color: blue;
-}
-
 
 
 
