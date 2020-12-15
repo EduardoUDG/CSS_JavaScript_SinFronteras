@@ -1,36 +1,30 @@
 body{
-    background-color:#efefef;              
+    background-color:#eee;              
 }
 
-.l1 li{
-    list-style-type: circle;
-}
-
-.l2 li{
-    list-style-type: square;
-}
-
-.l3 li{
-    list-style-type: upper-roman;
-}
-
-.l4 li{
-    list-style-type: lower-alpha;
-}
-
-.l5 {
-    list-style-type: lower-alpha;
+table {
+    width: 100%;
+    text-align: left;
+    font-size: 16px;
     background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding-left: 0px;
-    list-style-type: none;
+    border-collapse: collapse;
 }
 
-.l5 li {
-    border-bottom: 1px solid #ddd;
-    padding: 15px;
+table th {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 8px;
 }
+
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+/* Tambien podemos usar  (odd) para indicar el segundo elemento en adelante */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
 
 
 
