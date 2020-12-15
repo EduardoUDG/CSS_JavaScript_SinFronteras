@@ -2,56 +2,16 @@ body{
     background-color:#efefef;              
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+
+.p1 {
+    color: #222fff;
+    text-align: center;
 }
 
-hr {
-    border: 0px;  
-    height: 0px;
-    margin: 5px;
-    border-top: 1px solid rgb(235, 235, 235); 
+.p2 {
+    color: blueviolet;
+    text-align: justify;
 }
-
-.caja {
-    margin: 5px;
-    padding: 10px;
-    background: #fff;
-    border-style: solid;
-    border-color: rgb(192, 192, 192);
-    border-top: none;
-    border-radius: 0px 3px 3px 3px ;
-}
-
-.btn {
-    padding: 3px 5px;
-    background-color: #f2f2f2;
-    border:none;
-    color: #fff;
-    font-size: 12px;
-}
-.btn-aceptar{
-    background-color: rgb(42, 110, 255);
-}
-.btn-cancela {
-    background-color: #bdbdbd;
-}
-
-.btn-group {
-    margin: 7px 7px 7px 0px;
-}
-
-
-
-
-
-
-
-
-
-
 
 
 
