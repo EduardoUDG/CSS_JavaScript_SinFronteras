@@ -2,28 +2,6 @@ body{
     background-color:#eee;              
 }
 
-table {
-    width: 100%;
-    text-align: left;
-    font-size: 16px;
-    background-color: #fff;
-    border-collapse: collapse;
-}
-
-table th {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 8px;
-}
-
-td {
-    border: 1px solid #ddd;
-    padding: 8px;
-}
-/* Tambien podemos usar  (odd) para indicar el segundo elemento en adelante */
-tr:nth-child(even) {
-    background-color: #f2f2f2;
-}
 
 
 
