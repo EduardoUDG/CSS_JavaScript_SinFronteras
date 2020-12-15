@@ -2,37 +2,33 @@ body{
     background-color:#eee;              
 }
 
-.p1 {
-    max-width: 350px;
-    background-color: #f00;
-    margin: auto;
-    position: relative;
-    right: 5px;
-    top: 0px; 
-    bottom: 0px;
+#over1 {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    overflow: visible;
 }
 
-.p2 {
-    max-width: 350px;
-    background-color: #f00;
-    margin: auto;
-    position: relative;
-    right: 5px;
-    top: 0px;
-    bottom: 0px;
+#over2 {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    overflow: hidden;
 }
 
-.p3 {
-    max-width: 100px;
-    background-color: #000;
-    margin: auto;
-    color: white;
-    position: fixed;
-    right: 0px;
-    top: 0px;
-    bottom: 0px;
+#over3 {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    overflow: scroll;
 }
 
+#over4 {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    overflow: auto;
+}
 
 
 
