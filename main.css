@@ -3,7 +3,12 @@ body{
 }
 
 .a1{
-    color: hotpink;
+    color: white;
+    text-decoration: none;
+    background-color: cornflowerblue;
+    border: 1px solid green;
+    border-radius: 4px;
+    padding: 3px 5px;
 }
 
 .a2:link{
