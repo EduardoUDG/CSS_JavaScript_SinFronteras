@@ -57,9 +57,35 @@ body{
     text-shadow: 2px 3px 5px red;
 }
 
+.p14{
+    font-family: Arial;
+}
+
+.p15{
+    font-style: italic;
+}
+
+.p16{
+    font-weight: 600;
+    /* 100 hasta 900 */
+}
+
 a {
     text-decoration: ;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
