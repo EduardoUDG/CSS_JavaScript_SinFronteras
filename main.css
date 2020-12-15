@@ -2,78 +2,25 @@ body{
     background-color:#efefef;              
 }
 
-
-.p1 {
-    color: #222fff;
-    text-align: center;
+.a1{
+    color: hotpink;
 }
 
-.p2 {
+.a2:link{
+    color: pink;
+}
+
+.a3:visited{
     color: blueviolet;
-    text-align: justify;
 }
 
-.p3 {
-    text-decoration: none;
+.a4:active{
+    color: yellow;
 }
 
-.p4{
-    text-decoration: overline;
+.a5:hover{
+    color: blue;
 }
-
-.p5{
-    text-decoration: line-through;
-}
-
-.p6{
-    text-transform: uppercase;
-}
-
-.p7{
-    text-transform: lowercase;
-}
-
-.p8{
-    text-transform: capitalize;
-}
-
-.p9{
-    text-indent: 30px;
-}
-
-.p10{
-    letter-spacing: 0.75px;
-}
-
-.p11{
-    line-height: 1.7;
-}
-
-.p12{
-    word-spacing: 10px;
-}
-
-.p13{
-    text-shadow: 2px 3px 5px red;
-}
-
-.p14{
-    font-family: Arial;
-}
-
-.p15{
-    font-style: italic;
-}
-
-.p16{
-    font-weight: 600;
-    /* 100 hasta 900 */
-}
-
-a {
-    text-decoration: ;
-}
-
 
 
 
