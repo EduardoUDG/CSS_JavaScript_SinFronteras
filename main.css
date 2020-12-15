@@ -2,7 +2,36 @@ body{
     background-color:#eee;              
 }
 
+.p1 {
+    max-width: 350px;
+    background-color: #f00;
+    margin: auto;
+    position: relative;
+    right: 5px;
+    top: 0px; 
+    bottom: 0px;
+}
 
+.p2 {
+    max-width: 350px;
+    background-color: #f00;
+    margin: auto;
+    position: relative;
+    right: 5px;
+    top: 0px;
+    bottom: 0px;
+}
+
+.p3 {
+    max-width: 100px;
+    background-color: #000;
+    margin: auto;
+    color: white;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+}
 
 
 
