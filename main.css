@@ -49,6 +49,14 @@ body{
     line-height: 1.7;
 }
 
+.p12{
+    word-spacing: 10px;
+}
+
+.p13{
+    text-shadow: 2px 3px 5px red;
+}
+
 a {
     text-decoration: ;
 }
