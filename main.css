@@ -13,5 +13,45 @@ body{
     text-align: justify;
 }
 
+.p3 {
+    text-decoration: none;
+}
+
+.p4{
+    text-decoration: overline;
+}
+
+.p5{
+    text-decoration: line-through;
+}
+
+.p6{
+    text-transform: uppercase;
+}
+
+.p7{
+    text-transform: lowercase;
+}
+
+.p8{
+    text-transform: capitalize;
+}
+
+.p9{
+    text-indent: 30px;
+}
+
+.p10{
+    letter-spacing: 0.75px;
+}
+
+.p11{
+    line-height: 1.7;
+}
+
+a {
+    text-decoration: ;
+}
+
 
 
