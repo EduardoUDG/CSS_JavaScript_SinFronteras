@@ -3,26 +3,12 @@ body{
 }
 
 .fondo {
-    height: 400px;
-    background-color:red;
-    background-image: url('https://placeimg.com/200/300/nature');
-    background-repeat: no-repeat;
-    /* Con Background position indicamos apartir d que lugar queremos que se rendeize la imagen */
-    background-position: right bottom;
-    /* con esta propiedad indicamos la posicion fija que queramos */
-    background-attachment: fixed;
-    /* De esta forma indicamos que queremos abarcar el 100% de la caja con la imagen */
-    background-size: cover;
-    
-    
+    background-color: rgba(0, 255, 0, 1);    
 }
 
-/* Podemos hacer todo lo anterior con una sola linea
-    como se muestra a continuacion>
-
-background:red url('https://placeimg.com/640/480/nature') no-repeat right bottom fixed cover;
-*/
-
+.fondo2 {
+    background-color: hsl(120, 60%, 70%, 1);
+}
 
 
 
