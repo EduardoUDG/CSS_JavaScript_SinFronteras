@@ -3,7 +3,11 @@ body{
 }
 
 .grid {
-    display: inline-grid;
+    display: grid;
+    /* 
+    grid-template-columns: 100px 50px 20vh;
+    */
+    grid-template-columns: 1fr 2fr 3fr;
 }
 
 .element {
