@@ -2,43 +2,26 @@ body{
     background-color:#f3f4f6;                  
 }
 
-input[type=text], textarea {
-    width: 100%;
-    padding: 5px 8px;
-    margin: 5px 0px;
-    display: block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
+.fondo {
+    height: 400px;
+    background-color:red;
+    background-image: url('https://placeimg.com/200/300/nature');
+    background-repeat: no-repeat;
+    /* Con Background position indicamos apartir d que lugar queremos que se rendeize la imagen */
+    background-position: right bottom;
+    /* con esta propiedad indicamos la posicion fija que queramos */
+    background-attachment: fixed;
+    /* De esta forma indicamos que queremos abarcar el 100% de la caja con la imagen */
+    background-size: cover;
+    
+    
 }
 
-button {
-    width: 100%;
-    background-color: #3b83bd;
-    color: white;
-    padding: 5px 8px;
-    font-size: 16px;
-    border: none;
-    display: inline-block;
-    border-radius: 4px;
-    margin-top: 5px;
-    cursor: pointer;
-}
+/* Podemos hacer todo lo anterior con una sola linea
+    como se muestra a continuacion>
 
-.box {
-    background: #fff;
-    padding: 15px;
-    margin-left: 0;
-    margin-right: 0;
-    border-radius: 4px;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
-}
-
-textarea {
-    min-width: 100%;
-    min-height: 100px;
-}
-
+background:red url('https://placeimg.com/640/480/nature') no-repeat right bottom fixed cover;
+*/
 
 
 
