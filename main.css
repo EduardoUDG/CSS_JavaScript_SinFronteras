@@ -3,13 +3,28 @@ body{
 }
 
 .fondo {
-    background-color: rgba(0, 255, 0, 1);    
+    /* lo podemos declarar con colores de la siguiente forma */
+    background-image: linear-gradient(to right ,white, #ccc);    
 }
 
 .fondo2 {
-    background-color: hsl(120, 60%, 70%, 1);
+    /* Podemos indicar desde que direccion queremos que se imprima */
+    background-image: linear-gradient(to right bottom, red, blue);
 }
 
+.fondo3 {
+    /* O tambien lo podemos indicar con grados de la siguiente forma */
+    background-image: linear-gradient(-180deg, orange, lime);
+}
+
+.fondo4 {
+    /* De esta forma colocamos colores entre medios */
+    background-image: linear-gradient(-180deg, orange, white,lime);
+}
+
+.fondo5 {
+    background-image: repeating-linear-gradient(0deg, rgba(255, 0, 0, 1) 10%, tomato 20%);
+}
 
 
 
