@@ -4,10 +4,26 @@ body{
 
 .grid {
     display: grid;
-    grid-template-rows: minmax(100px, auto);
-    grid-template-columns: minmax(auto, 50%) 1fr 3em;
+    grid-template-rows: repeat(2, 50px);
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .element {
     background-color: red;
+    border: 1px solid #ccc;
+}
+
+.grid2 {
+    display: grid;
+    grid-template-rows: repeat(2, 50px);
+    /* el primer valor en pixeles es para la primera columna 
+        el siguiente valor de repeat es para la segunda columna 
+        y asi con los demas elementos
+    */
+    grid-template-columns: 30px repeat(3, 1fr) 15px;
+}
+
+.element2 {
+    background-color: red;
+    border: 1px solid #ccc;
 }
