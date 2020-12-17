@@ -12,8 +12,14 @@ body{
     grid-template-columns: 1fr 200px;
     grid-auto-rows: 140px;
     grid-auto-flow: row;
+
+    /* 
+    Para alinear todos los elementos de la GRID usamos 
+    items
+    
     justify-items: stretch;
-    align-items: end;
+    align-items: end; 
+    */
 }
 
 .header {
@@ -23,5 +29,15 @@ body{
 
 .red {
     background-color: red;
+}
+
+.item-1 {
+    border: 1px solid blue;
+    /* Para justificar 1 solo elemento usamos lo siguiente 
+        en caso de que, querramos usar el 100%, debemos
+        indicarlo con el atributo stretch
+    */
+    justify-self: center;
+    align-self: center;
 }
 
