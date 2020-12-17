@@ -2,6 +2,7 @@ body{
     background-color:#f3f4f6;                  
 }
 
+
 .grid {
     display: grid;
     grid-template-areas: "header header"
@@ -10,15 +11,9 @@ body{
     grid-template-rows: 150px 1fr 100px;
     grid-template-columns: 1fr 200px;
     grid-auto-rows: 140px;
-}
-
-.red {
-    background-color: red;
-}
-
-.blue {
-    background-color: blue;
-    color: white;
+    grid-auto-flow: row;
+    justify-items: stretch;
+    align-items: end;
 }
 
 .header {
@@ -26,4 +21,7 @@ body{
     grid-row: row-inicio / row-fin 3;
 }
 
+.red {
+    background-color: red;
+}
 
