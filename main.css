@@ -16,5 +16,19 @@ body{
 
 .element {
     background-color: red;
-    border: 1px solid #ccc;
 }
+
+.header {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    /* 
+    Podemos hacer lo anterior de la siguiente forma
+    mas  corata y con el mismo resultado:
+    grid-column: 1 / 6;
+    grid-row: 1 / 3;
+    */
+}
+
+
