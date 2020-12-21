@@ -19,23 +19,31 @@ body {
 
     flex-flow: row wrap;
     justify-content: space-evenly;
+    height: 200px;
+    
     /* 
-    flex-start
-    flex-end
-    center
-    space-between
-    space-evenly
-    space-around
+        Esta propiedad nos permite distribuir nuestro 
+        contenido dentro de la caja que esta definida ↓
     */
-
-    align-items: stretch;
+    align-content: space-evenly;
     /* 
     flex-start
     flex-end
     center
-    stretcj
+    stretch
+    space-between
+    space-around
+    space-evenly
     */
 }
+
+
+
+
+
+
+
+
 
 .flex > div {
     border: 1px solid #ff8000;
