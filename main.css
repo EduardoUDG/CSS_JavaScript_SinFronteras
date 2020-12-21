@@ -5,7 +5,6 @@
 }
 
 body {
-    width: 200px;
     background-color: #f2f2f2;
     font-family: 'Roboto', sans-serif;
     text-align: center;
@@ -18,24 +17,31 @@ body {
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.25);
     height: 200px;
     flex-flow: row wrap;
-
-
 }
-
-.primero {
-    order: 1;
-}
-
-.segundo {
-    order: 0;
-}
-
-.tercero {
-    order: -1;
-}
-
 
 .flex > div {
     border: 1px solid #ff8000;
     background-color: rgba(255, 0, 0, 0.1);
+}
+
+/* 
+    Esta propiedad permite 
+    crecer los exponentes de manera
+    dinamica, solo en el caso de que haya
+    espacio disponible
+
+    Esta propiedad es parecida cuando indicamos un 
+    template en grid e indicamos
+    las fracciones de las columnas
+*/
+.primero {
+    flex-grow: 1;
+}
+
+.segundo {
+    flex-grow: 2;
+}
+
+.tercero {
+    flex-grow: 1;
 }
