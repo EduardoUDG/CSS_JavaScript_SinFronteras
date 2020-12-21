@@ -1,35 +1,29 @@
-html {
-    height: 100%;
+body {
+    width: 200px;
 }
 
-body{
-    background-color:#f3f4f6;                  
-    margin: 0;
-    height: 100%;
+.flex {
+    display: flex;
+    border: 1px solid #ff8000;
+    flex-direction: row;
+    /* row | column | column-reverse | row-reverse*/
 }
 
-/* justify-content 
-    alinea todas las cajas de nuestra grilla 
-    a la propiedad que le indiquemos
+.flex-2 {
+    display: flex;
+    border: 1px solid #ff8000;
+    flex-wrap: wrap;
+    /* wrap | wrap-reverse */
+}
+
+.flex-3 {
+    display: flex;
+    border: 1px solid #ff8000;
+    flex-flow: row wrap;
+    /* wrap | wrap-reverse */
+}
+
+/* 
+    podemos definir lo anterior con una sola propiedad 
+    flex-flow: row wrap;    
 */
-.grid {
-    display: grid;
-    width: 100%;
-    height: 100%;
-    grid-template-columns: repeat(4, 50px);
-    grid-template-rows: repeat(3, 50px);
-    gap: 5px;
-    /* 
-        space-between
-        space-evenly
-        space-around
-    */
-    justify-content: start;
-    align-content: space-around;
-}
-
-.red {
-    background-color: red;
-}
-
-
