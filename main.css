@@ -36,10 +36,18 @@ body {
 */
 .primero {
     flex-grow: 1;
+    /* ↓ esta propiedad le da un tamaño inicial  */
+    flex-basis: 120px;
 }
 
+
+/* 
+    podemos escribir las propiedades de 
+    flex-grow y flex-basis en una sola 
+    propiedad como se muestra abajo ↓
+*/
 .segundo {
-    flex-grow: 2;
+    flex: 1 100px ;
 }
 
 .tercero {
