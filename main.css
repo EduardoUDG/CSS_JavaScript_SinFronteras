@@ -51,5 +51,21 @@ body {
 }
 
 .tercero {
-    flex-grow: 1;
+    flex-grow: 2;
+    align-self: stretch;
+/* 
+    auto
+    flex-start
+    flex-end
+    center
+    baseline
+    stretch
+*/
 }
+
+/*
+ NOTA:
+ float, clear y vertical-align
+ no tiene ningun efecto dentro de
+ flex
+ */
